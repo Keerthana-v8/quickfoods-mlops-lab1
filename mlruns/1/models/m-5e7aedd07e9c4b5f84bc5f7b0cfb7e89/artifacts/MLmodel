@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/keerthanaV/quickfoods-mlops-lab1/mlruns/1/models/m-5e7aedd07e9c4b5f84bc5f7b0cfb7e89/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.1
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-5e7aedd07e9c4b5f84bc5f7b0cfb7e89
+model_size_bytes: 5137710
+model_uuid: m-5e7aedd07e9c4b5f84bc5f7b0cfb7e89
+prompts: null
+run_id: 6801da596c484c9282d7bfc82cc55af9
+utc_time_created: '2026-06-29 01:03:45.668773'
